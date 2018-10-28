@@ -83,7 +83,7 @@ jQuery(function ($) {
 
 			$('#footer').toggle(todoCount > 0).html(template);
 		},
-		save: function() {  // Added `save` method which runs call to `store` previously at line 72.
+		save: function () {  // Added `save` method which runs call to `store` previously at line 72.
 			util.store('todos-jquery', this.todos);
 		},
 		toggleAll: function (e) {
